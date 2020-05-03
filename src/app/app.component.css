@@ -1,0 +1,11 @@
+#particles-js {
+  background: linear-gradient(0deg, whitesmoke 0%, black 100%);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.center{
+  text-align: center;
+}

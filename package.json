@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "particlesJS": "node_modules/particles.js/particles.js"
   },
   "private": true,
   "dependencies": {
@@ -19,9 +20,11 @@
     "@angular/platform-browser": "~9.1.4",
     "@angular/platform-browser-dynamic": "~9.1.4",
     "@angular/router": "~9.1.4",
+    "particles.js": "^2.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "t-writer.js": "^1.0.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",

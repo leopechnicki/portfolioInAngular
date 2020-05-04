@@ -1,0 +1,86 @@
+.button {
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin: 10px 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.fa {
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white !important;
+}
+
+.fa-linkedin {
+  background: #0092bb;
+  color: white !important;
+}
+
+.fa-instagram {
+  background: #f40083;
+  color: white !important;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white !important;
+}
+
+.fa-github {
+  background: #000000;
+  color: white !important;
+}
+
+.fa-bitbucket {
+  background: #0052CC;
+  color: white !important;
+}
+
+.dropdown-content {
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 0 0 200px 200px;
+  width: fit-content;
+  display: none;
+  padding: 5px 8px;
+}
+
+.button:hover {
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 7px 10px;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+

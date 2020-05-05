@@ -1,15 +1,31 @@
 #particles-js {
-  background: linear-gradient(0deg, whitesmoke 0%, black 100%);
+  background: linear-gradient(0deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   width: 100vw;
   height: 100vh;
   position: absolute;
   z-index: -1;
 }
 
-app-contact{
+app-apresentation {
+  margin-top: 10px;
+  margin-left: 35vw;
+  margin-right: auto;
+  float: left;
+}
+
+app-contact {
   float: right;
 }
 
-.modalSkill{
-
+@keyframes slideInFromBottom {
+  from {
+    top: 100vh;
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    top: 25vh;
+    height: 50vh;
+    opacity: 1;
+  }
 }

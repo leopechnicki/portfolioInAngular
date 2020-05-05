@@ -1,11 +1,6 @@
 .button {
-  background-color: whitesmoke;
   border: none;
-  color: black;
-  text-align: center;
   font-size: 28px;
-  transition: all 0.2s;
-  cursor: pointer;
   margin: 10px 10px;
   height: 60px;
   width: 60px;
@@ -51,22 +46,21 @@
   color: white !important;
 }
 
+.fa-twitch {
+  background: #772ce8;
+  color: white !important;
+}
+
 .dropdown-content {
-  background-color: whitesmoke;
+  background-color: var(--primary-color);
   border: none;
-  color: black;
   text-align: center;
   font-size: 28px;
   transition: all 0.5s;
-  cursor: pointer;
   border-radius: 0 0 200px 200px;
   width: fit-content;
   display: none;
-  padding: 5px 8px;
-}
-
-.button:hover {
-
+  padding: 5px 6px;
 }
 
 .dropdown-content a {
@@ -81,6 +75,5 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
-
 }
 

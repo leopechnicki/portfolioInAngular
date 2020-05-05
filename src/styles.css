@@ -16,7 +16,6 @@ body{
   background: var(--primary-color);
   position: absolute;
   top: 25vh;
-  left: 60vw;
   animation: slideInFromBottom 5s;
   border-radius: 10px;
 }

@@ -11,6 +11,7 @@ footer {
   padding-bottom: 25px;
   background-color: var(--primary-color);
   margin-top: -10px;
+  color: var(--secondary-color);
 }
 
 svg{

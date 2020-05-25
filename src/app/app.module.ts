@@ -3,8 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ApresentationComponent } from './apresentation/apresentation.component';
-import { FrontEndComponent } from './front-end/front-end.component';
-import { BackEndComponent } from './back-end/back-end.component';
+import { SkillsComponent } from './skills/skills.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 
@@ -12,8 +11,7 @@ import { ContactComponent } from './contact/contact.component';
   declarations: [
     AppComponent,
     ApresentationComponent,
-    FrontEndComponent,
-    BackEndComponent,
+    SkillsComponent,
     FooterComponent,
     ContactComponent
   ],

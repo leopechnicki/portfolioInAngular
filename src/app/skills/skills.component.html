@@ -1,0 +1,11 @@
+<div class="box">
+  <div class="titleBox">
+    CODE SKILLS
+  </div>
+  <div class="skillListBox">
+    <div class="skillBox tooltip" *ngFor="let skill of skillList">
+      <div [innerHTML]=skill.URLimage></div>
+      <span class="tooltiptext">{{ skill.name }}</span>
+    </div>
+  </div>
+</div>

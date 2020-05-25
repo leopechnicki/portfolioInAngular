@@ -1,0 +1,61 @@
+.box {
+  left: 38vw;
+  -webkit-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+  display: table;
+  color: var(--primary-color);
+  /*color: transparent;*/
+  padding-bottom: 2px;
+}
+
+.titleBox {
+  font-size: 16pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.skillListBox{
+  margin: auto;
+  display: initial;
+}
+
+.skillBox{
+  color: var(--secondary-color);
+  margin: 2px;
+  width: fit-content;
+  height: fit-content;
+  float: left;
+  padding: 5px;
+  border-radius: 10px;
+  display: inherit;
+}
+
+.skillBox:hover {
+  background-color: var(--fourth-color);
+  color: var(--primary-color);
+  cursor: default;
+  -webkit-box-shadow: 1px 1px 2px 0px black;
+  -moz-box-shadow: 1px 1px 2px 0px black;
+  box-shadow: 1px 1px 2px 0px black;
+ }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

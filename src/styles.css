@@ -2,7 +2,12 @@
 :root{
   --primary-color: whitesmoke;
   --secondary-color: black;
+  --third-color: #7b67ff;
+  --fourth-color: #00aff0;
+  /*--primary-color: whitesmoke;
+  --secondary-color: black;
   --third-color: #ff7d4b;
+  --fourth-color: #00aff0;*/
 }
 
 body{
@@ -11,9 +16,10 @@ body{
 }
 
 .box {
-  width: 30vw;
-  height: 50vh;
-  background: var(--primary-color);
+  width: 25vw;
+  height: fit-content;
+  background: transparent;
+  /*background: var(--primary-color);*/
   position: absolute;
   top: 25vh;
   animation: slideInFromBottom 5s;

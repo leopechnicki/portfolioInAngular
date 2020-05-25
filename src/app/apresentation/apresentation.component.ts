@@ -18,14 +18,14 @@ export class ApresentationComponent implements OnInit {
     const dotTypewriter = document.querySelector('.dotTypewriter');
     const descriptionTypewrite = document.querySelector('.descriptionTypewrite');
     const options = {
-      typeColor: 'white',
-      cursorColor: 'white'
+      typeColor: 'var(--primary-color)',
+      cursorColor: 'var(--primary-color)'
     };
 
     const firstWriter = new Typewriter(textTypewrite, options);
     const secondWriter = new Typewriter(nameOnTypewrite, {
-      typeColor: '#ff7d4b',
-      cursorColor: 'white'});
+      typeColor: 'var(--fourth-color)',
+      cursorColor: 'var(--primary-color)'});
     const thirdWriter = new Typewriter(dotTypewriter, options);
     const fourthWriter = new Typewriter(descriptionTypewrite, options);
 

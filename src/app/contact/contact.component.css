@@ -6,6 +6,8 @@
   width: 60px;
   border-radius: 50%;
   padding: 0;
+  background-color: var(--primary-color);
+  z-index: 99;
 }
 
 .fa {
@@ -51,6 +53,11 @@
   color: white !important;
 }
 
+.fa-whatsapp {
+  background: #4beb69;
+  color: white !important;
+}
+
 .dropdown-content {
   background-color: var(--primary-color);
   border: none;
@@ -60,7 +67,7 @@
   border-radius: 0 0 200px 200px;
   width: fit-content;
   display: none;
-  padding: 5px 6px;
+  padding: 5px 8px;
 }
 
 .dropdown-content a {
@@ -75,5 +82,6 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+  z-index: 99;
 }
 

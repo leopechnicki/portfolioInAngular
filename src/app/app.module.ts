@@ -7,6 +7,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { BannerComponent } from './banner/banner.component';
+import { AdsenseModule } from 'ng2-adsense';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,11 @@ import { BannerComponent } from './banner/banner.component';
     BannerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AdsenseModule.forRoot({
+        adClient: 'ca-pub-0487329598065195',
+        adSlot: 7259870550,
+      }),
   ],
   providers: [],
   bootstrap: [AppComponent]

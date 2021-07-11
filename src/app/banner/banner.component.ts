@@ -1,28 +1,16 @@
-import {AfterViewInit, Component, Input} from '@angular/core';
-import {environment} from '../../environments/environment.prod';
-import {BannerModel} from '../share/models/banner.model';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-banner',
   templateUrl: './banner.component.html',
   styleUrls: ['./banner.component.css']
 })
-export class BannerComponent implements AfterViewInit {
+export class BannerComponent implements OnInit {
 
-  @Input() banner: BannerModel;
-  showAd = environment.adsense.show;
-  constructor() {    }
+  constructor() {
+  }
 
-  ngAfterViewInit() {
-    setTimeout(() => {
-      try {
-        (window['adsbygoogle'] = window['adsbygoogle'] || []).push({
-          overlays: {bottom: true}
-        });
-      } catch (e) {
-        console.error(e);
-      }
-    }, 0);
+  ngOnInit(): void {
   }
 
 }

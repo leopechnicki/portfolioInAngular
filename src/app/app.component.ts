@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ParticlesConfig} from '../assets/particles-config';
+import {BannerModel} from './share/models/banner.model';
 
 declare var particlesJS: any;
 
@@ -10,6 +11,7 @@ declare var particlesJS: any;
 })
 export class AppComponent implements OnInit{
   title = 'PortifolioSecondVersion';
+  banner: BannerModel;
 
   public ngOnInit(): void {
     this.invokeParticles();

@@ -11,6 +11,7 @@ export class BannerComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log('test');
   }
 
 }
